@@ -32,9 +32,25 @@ nav a {
     text-align: center;
     text-decoration: none;
     background-color: darkcyan;
-    padding: 15px 30px;
+    padding: 15px 20px;
     transition: all 0.5s ease;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
+nav a#menu1{
+    padding: 34px 30px;
+}
+nav a#menu2{
+    padding: 34px 30px;
+}
+nav a#menu3{
+    padding: px 30px;
+}
+nav a#menu4{
+    padding: 24.5px 30px;
+}
+
 
 a.menu:hover {
     background-color: crimson;
