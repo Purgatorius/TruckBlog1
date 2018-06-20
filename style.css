@@ -38,19 +38,21 @@ nav a {
     border-color: white;
     border-width: thin;
 }
+
+/*
 nav a#menu1{
-    padding: 34px 30px;
-}
-nav a#menu2{
-    padding: 34px 30px;
-}
-nav a#menu3{
-    padding: px 30px;
-}
-nav a#menu4{
     padding: 24.5px 30px;
 }
-
+nav a#menu2{
+    padding: 24.5px 30px;
+}
+nav a#menu3{
+    padding: 24.5px 30px;
+}
+nav a#menu4{
+    padding: 24.5px 50px;
+}
+*/
 
 a.menu:hover {
     background-color: crimson;
@@ -111,4 +113,9 @@ footer {
     line-height: 40px;
     text-align: center;
     margin-top: 10px;
+}
+
+img.picture1 {
+    width: 100%;
+    display: block
 }
