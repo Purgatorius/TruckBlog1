@@ -39,27 +39,30 @@ nav a {
     border-width: thin;
 }
 
-/*
-nav a#menu1{
-    padding: 24.5px 30px;
-}
-nav a#menu2{
-    padding: 24.5px 30px;
-}
-nav a#menu3{
-    padding: 24.5px 30px;
-}
-nav a#menu4{
-    padding: 24.5px 50px;
-}
-*/
-
 a.menu:hover {
     background-color: crimson;
 }
 
 .active {
     background-color: crimson;
+}
+
+@media (max-width: 807px) {
+    nav a#menu2{
+    padding: 24.5px 30px;
+}
+    nav a#menu4{
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 784px) {
+    nav a#menu2{
+    padding: 15px 30px;
+}
+    nav a#menu4{
+        padding: 15px 30px;
+    }
 }
 
 @media (max-width: 600px) {
